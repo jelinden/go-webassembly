@@ -1,2 +1,5 @@
 go-webassembly
 simple/simple.wasm
+simple/server
+function/server
+function/function.wasm

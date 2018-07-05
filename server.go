@@ -24,7 +24,7 @@ func wasmHandle(w http.ResponseWriter, r *http.Request) {
 
 func jsHandle(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/javascript")
-	http.ServeFile(w, r, r.URL.Path[1:])
+	http.ServeFile(w, r, "js/"+r.URL.Path[1:])
 }
 
 func rootHandle(w http.ResponseWriter, r *http.Request) {
@@ -41,16 +41,13 @@ const page = `
 		<script type="text/javascript">
 			const go = new Go();
 			WebAssembly.instantiateStreaming(fetch('wasm/simple.wasm'), go.importObject).then(function(res) {
-				console.log(res.instance);
-				go.run(res.instance).then(function(value) {
-					document.getElementById('wasm').innerHTML = value;
-				});
+				go.run(res.instance);
 			});
 		</script>
 	</head>
 	<body>
 		<h2>WebAssembly content</h2>
-		<div id="wasm"></div>
+		<div id="wasm">Check the console ...</div>
 	</body>
 </html>
 `

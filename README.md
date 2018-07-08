@@ -25,3 +25,15 @@ bash build.sh
 ```
 
 Go to http://localhost:8000
+
+## directory redbox
+
+Print a red box to a web page from Go code.
+
+```
+cd redbox
+bash build.sh
+./server
+```
+
+Go to http://localhost:8000

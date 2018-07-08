@@ -1,7 +1,7 @@
 go-webassembly
 simple/simple.wasm
 simple/server
-function/server
-function/function.wasm
+#valuetoelement/server
+#valuetoelement/valuetoelement.wasm
 redbox/server
 redbox/redbox.wasm

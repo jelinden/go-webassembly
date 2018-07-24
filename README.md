@@ -1,6 +1,6 @@
-# go-webassemly
+# go-webassembly
 
-A small project for trying out webassemly with Go.
+A small project for trying out webassembly with Go.
 
 ## directory simple
 

@@ -5,3 +5,5 @@ valuetoelement/server
 valuetoelement/valuetoelement.wasm
 redbox/server
 redbox/redbox.wasm
+spinning/server
+spinning/spinning.wasm

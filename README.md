@@ -37,3 +37,15 @@ bash build.sh
 ```
 
 Go to http://localhost:8000
+
+## directory spinning
+
+Spinning red box from Go code.
+
+```
+cd spinning
+bash build.sh
+./server
+```
+
+Go to http://localhost:8000

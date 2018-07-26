@@ -54,7 +54,7 @@ const page = `
 				});
 			}
 			run();
-			setInterval(function(){ spin(); }, 30);
+			setInterval(function(){ spin(); }, 15);
 			function runSpin(callback) {
 				spin = callback;
 				resolveSpinningReceived()

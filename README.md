@@ -2,7 +2,7 @@
 
 A small project for trying out webassembly with Go.
 
-[https://github.com/jelinden/go-webassembly/blob/master/spinning/spinning.png|alt=spinning]
+<img src="https://github.com/jelinden/go-webassembly/raw/master/spinning/spinning.png" width="350">
 
 ## directory simple
 
